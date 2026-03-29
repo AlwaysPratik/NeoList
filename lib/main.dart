@@ -341,7 +341,7 @@ class _SwipeableTodoItemState extends State<SwipeableTodoItem>
   bool _isOpen = false;
 
   static const double _actionWidth = 80.0;
-  static const double _maxSlide = _actionWidth * 2; // Two buttons
+  // static const double _maxSlide = _actionWidth * 2; // Two buttons
 
   @override
   void initState() {
